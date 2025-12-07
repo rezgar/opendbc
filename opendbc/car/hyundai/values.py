@@ -522,8 +522,8 @@ class CAR(Platforms):
   )
   KIA_CARNIVAL_2025 = HyundaiCanFDPlatformConfig(
     [
-      HyundaiCarDocs("Kia Carnival 2025-26", car_parts=CarParts.common([CarHarness.hyundai_k])),
-      HyundaiCarDocs("Kia Carnival (with HDA II) 2025-26", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_q])),
+      HyundaiCarDocs("Kia Carnival 2025", car_parts=CarParts.common([CarHarness.hyundai_k])),
+      HyundaiCarDocs("Kia Carnival (with HDA II) 2025", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_q])),
     ],
     CarSpecs(mass=2087, wheelbase=3.09, steerRatio=14.23),
     flags=HyundaiFlags.ICE | HyundaiFlags.CCNC,
